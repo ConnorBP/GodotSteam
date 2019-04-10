@@ -120,7 +120,7 @@ class Steam: public Object {
 		int getFriendRelationship(uint64_t steamID);
 		int getFriendPersonaState(uint64_t steamID);
 		String getFriendPersonaName(uint64_t steamID);
-		bool getFriendGamePlayed(uint64_t steamID);
+		bool getFriendGamePlayed(uint64_t steamID, Ref<FriendGameInfo_t> &gameInfo);
 		String getFriendPersonaNameHistory(uint64_t steamID, int nameHistory);
 		int getFriendSteamLevel(uint64_t steamID);
 		String getPlayerNickname(uint64_t steamID);

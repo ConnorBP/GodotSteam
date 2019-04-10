@@ -509,13 +509,13 @@ String Steam::getFriendPersonaName(uint64_t steamID){
 	return "";
 }
 // Returns true if the friend is actually in game and fills in pFriendGameInfo with an extra details. 
-bool Steam::getFriendGamePlayed(uint64_t steamID){
+bool Steam::getFriendGamePlayed(uint64_t steamID, Ref<FriendGameInfo_t> &gameInfo){
 	if(SteamFriends() == NULL){
 		return false;
 	}
-	FriendGameInfo_t gameInfo;
+	//FriendGameInfo_t gameInfo;
 	CSteamID userID = (uint64)steamID;
-	bool isFriend = SteamFriends()->GetFriendGamePlayed(userID, &gameInfo);
+	bool isFriend = SteamFriends()->GetFriendGamePlayed(userID, gameInfo);
 	return isFriend;
 }
 // Accesses old friends names; returns an empty string when there are no more items in the history.
