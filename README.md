@@ -1,4 +1,7 @@
 # GodotSteam for Godot Engine
+
+[![Join the chat at https://gitter.im/GodotSteam/community](https://badges.gitter.im/GodotSteam/community.svg)](https://gitter.im/GodotSteam/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Steam API for the Godot game engine (version 3.1). For the Windows, Linux, and Mac platforms. 
 
 Additional flavors include: [Godot 2.x](https://github.com/Gramps/GodotSteam/tree/godot2), [Godot 2.x Minimal](https://github.com/Gramps/GodotSteam/tree/godot2-min), [Godot 3.x](https://github.com/Gramps/GodotSteam/tree/godot3), [Godot 3.x Minimal](https://github.com/Gramps/GodotSteam/tree/godot3-min), [Godot 3.1 Minimal](https://github.com/Gramps/GodotSteam/tree/godot31-min), [Server](https://github.com/Gramps/GodotSteam/tree/server), and [GDNative](https://github.com/Gramps/GodotSteam/tree/gdnative).
