@@ -1,6 +1,7 @@
 # GodotSteam for Godot Engine
 
 [![Join the chat at https://gitter.im/GodotSteam/community](https://badges.gitter.im/GodotSteam/community.svg)](https://gitter.im/GodotSteam/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![CodeFactor](https://www.codefactor.io/repository/github/connorbp/godotsteam/badge)](https://www.codefactor.io/repository/github/connorbp/godotsteam)
 
 Steam API for the Godot game engine (version 3.1). For the Windows, Linux, and Mac platforms. 
 
